@@ -70,6 +70,11 @@ nav h1 a {
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
+@media screen and (max-width: 500px) {
+	nav h1 a {
+		font-size: 1.2em;
+	}
+}
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
@@ -116,6 +121,7 @@ nav h1 a {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .filter-options h2 {
   color: white;
